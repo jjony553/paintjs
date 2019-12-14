@@ -2,6 +2,8 @@
 Drawing Canvas made with vanilla javascript<br>
 ![ezgif com-video-to-gif](https://user-images.githubusercontent.com/55618626/70845419-cdcbd400-1e91-11ea-9a2a-9cc58e49a590.gif)
 
+![image](https://user-images.githubusercontent.com/55618626/70845436-0ff51580-1e92-11ea-9387-9d8c123a72aa.png)
+
 ## Getting Started
 It's a canvas that you can paint, fill in color, and clear the canvas. Inspired by Apple drawing pad. 
 ### Used
