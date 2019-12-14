@@ -70,7 +70,7 @@ function handleCM(e){ //우클릭 막기
 }
 
 function handleSaveClick(){
-    const image = canvas.toDataURL("image/png");
+    const image = canvas.toDataURL();
     const link = document.createElement("a"); //html의 a 태그
     link.href = image;
     link.download = "PaintJS";
