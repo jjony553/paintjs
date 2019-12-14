@@ -3,6 +3,7 @@ const ctx = canvas.getContext("2d");
 const colors = document.getElementsByClassName("jsColor");
 const range = document.getElementById("jsRange");
 const mode = document.getElementById("jsMode");
+const clear = document.getElementById("jsClear");
 const save = document.getElementById("jsSave");
 
 const INITIAL_COLOR= "black"
@@ -69,6 +70,11 @@ function handleCM(e){ //우클릭 막기
     e.preventDefault();
 }
 
+function handleClearClick(){
+    ctx.fillStyle = "white";
+    ctx.fillRect(0,0,canvas.offsetWidth, canvas.offsetHeight);
+}
+
 function handleSaveClick(){
     const image = canvas.toDataURL();
     const link = document.createElement("a"); //html의 a 태그
@@ -94,7 +100,9 @@ if(range){
 if(mode){
     mode.addEventListener("click", handleModeClick);
 }
-
+if(clear){
+    clear.addEventListener("click", handleClearClick);
+}
 if(save){
     save.addEventListener("click", handleSaveClick);
 }
