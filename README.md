@@ -1,5 +1,7 @@
 # Vanilla_JS_Canvas
-Drawing Canvas made with vanilla javascript
+Drawing Canvas made with vanilla javascript<br>
+![ezgif com-video-to-gif](https://user-images.githubusercontent.com/55618626/70845419-cdcbd400-1e91-11ea-9a2a-9cc58e49a590.gif)
+
 ## Getting Started
 It's a canvas that you can paint, fill in color, and clear the canvas. Inspired by Apple drawing pad. 
 ### Used
